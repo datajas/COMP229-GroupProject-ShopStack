@@ -1,0 +1,31 @@
+{
+  "name": "comp229-groupproject-shopstack",
+  "version": "1.0.0",
+  "description": "- Tobi Badiru: Backend Setup\r - Reem Alsamara: Routes & Controllers\r - Jasmine Sidhu: Models\r - Pooja Vyas: Documentation\r - Tahsin Salsabil: Frontend (Views, CSS, Client JS)\r - Dorian Englisbee: Presentation & Video Demo",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datajas/COMP229-GroupProject-ShopStack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/datajas/COMP229-GroupProject-ShopStack/issues"
+  },
+  "homepage": "https://github.com/datajas/COMP229-GroupProject-ShopStack#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.4"
+  }
+}
