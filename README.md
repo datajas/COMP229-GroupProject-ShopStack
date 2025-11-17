@@ -4,6 +4,6 @@
 - Tobi Badiru: Backend Setup
 - Reem Alsamara: Routes & Controllers
 - Jasmine Sidhu: Models
-- Pooja Vyas: Documentation
-- Tahsin Salsabil: Frontend (Views, CSS, Client JS)
+- Pooja Vyas: Frontend (Views, CSS, Client JS)
+- Tahsin Salsabil: Documentation
 - Dorian Englisbee: Presentation & Video Demo
