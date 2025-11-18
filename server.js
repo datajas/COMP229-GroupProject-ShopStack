@@ -1,6 +1,8 @@
 const express = require('express');
 const path = require('path');
 const dotenv = require('dotenv');
+const userRoutes = require('./routes/user');
+
 
 dotenv.config();
 
@@ -17,10 +19,15 @@ app.set('view engine', 'ejs');
 // Public folder
 app.use(express.static(path.join(__dirname, 'public')));
 
+//user routes
+app.use('/users', userRoutes)
+
 // Homepage
 app.get('/', (req, res) => {
   res.render('home');
 });
+
+
 
 // Server start
 const PORT = process.env.PORT || 3000;
